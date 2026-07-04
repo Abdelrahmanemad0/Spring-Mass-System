@@ -1,3 +1,17 @@
+% Train Suspension Spring-Mass System - Numerical Simulation
+%
+% Models a two-mass, two-spring system (a simplified train suspension)
+% and solves the governing ODEs with three methods: Euler, Heun, and
+% classic 4th-order Runge-Kutta (RK4), so their accuracy/stability can
+% be compared directly.
+%
+% Renamed from Final_matlab_code.m to spring_mass_simulation.m to match
+% the run instructions in README.md.
+%
+% Usage: run this script in MATLAB and enter the requested parameters
+% (spring constants, masses, unstretched lengths, mass widths, step size)
+% when prompted.
+
 clear all
 % Parameters
 
